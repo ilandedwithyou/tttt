@@ -23,6 +23,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://liiik-one.vercel.app',
     'https://*.vercel.app',
     'https://*.up.railway.app',
+    'https://console.neon.tech/'
 ]
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
